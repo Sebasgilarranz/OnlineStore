@@ -23,11 +23,7 @@ Feature: User Login and Logout
 @login_S
 Scenario Outline: User successfully Login with Valid Credentials
 Given User is on the home page
-When User clicks the login button, nevigates to login page
-And User enters valid <username> and <password>
-Then User successfully login
-When User clicks the logout button
-Then User successfully Logout
+
 
 Examples:
     | username  | password |

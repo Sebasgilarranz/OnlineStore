@@ -19,7 +19,7 @@ public class Login{
 	
 	@Before
 	public void init(){
-		System.setProperty("webdriver.chrome.driver", ""C:\Users\Sebas\Desktop\chromedriver.exe"");
+		System.setProperty("webdriver.chrome.driver", "C:\Users\Sebas\Desktop\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
